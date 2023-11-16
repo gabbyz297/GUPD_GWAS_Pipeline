@@ -1,4 +1,4 @@
-A Genome-Wide Association Study (GWAS) is an analysis used to identify assocoiations between a genotype and an observed phenotype. This is done by comparing the genomes of individuals grouped by phenotype and identifying genetic variation between two groups typically using a linear or logistic model. This pipeline will show how to run a GWAS from raw genetic data.
+A Genome-Wide Association Study (GWAS) is an analysis used to identify associations between a genotype and an observed phenotype. This is done by comparing the genomes of individuals grouped by phenotype and identifying genetic variation between two groups typically using a linear or logistic model. This pipeline will show how to run a GWAS from raw genetic data.
 
 Derived from: (https://github.com/CassinSackett/SNP_capture)
 
