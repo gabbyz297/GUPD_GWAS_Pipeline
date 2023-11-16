@@ -3,11 +3,9 @@ A Genome-Wide Association Study (GWAS) is an analysis used to identify associati
 Derived from: (https://github.com/CassinSackett/SNP_capture)
 
 Concatenate files from the same sample run on different lanes (with the same orientation) 
-Forward or reverse reads that were run on different lanes were concatenated using ```cat```. Forward and reverse reads need to be kept separate, only concatenate reads from the same sample with the same orientation (e.g R1 can be concatenated with another R1 sample but not R2)
+Forward or reverse reads that were run on different lanes were concatenated using `cat`. Forward and reverse reads need to be kept separate, only concatenate reads from the same sample with the same orientation (e.g R1 can be concatenated with another R1 sample but not R2)
 
-```ruby
 cat samplename_lane_number samplename_lane_number > newsamplename.fq
-```
 
 Run FastQC on all samples to check quality of reads
 `FastQC` is a program used to check the sequence quality of your reads. This information can be used to determine if sample needs to be resequenced or if bad sequence quality base pairs can be removed.
