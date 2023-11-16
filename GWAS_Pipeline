@@ -5,7 +5,7 @@ Derived from: (https://github.com/CassinSackett/SNP_capture)
 Concatenate files from the same sample run on different lanes (with the same orientation) 
 Forward or reverse reads that were run on different lanes were concatenated using ```cat```. Forward and reverse reads need to be kept separate, only concatenate reads from the same sample with the same orientation (e.g R1 can be concatenated with another R1 sample but not R2)
 
-```
+```ruby
 cat samplename_lane_number samplename_lane_number > newsamplename.fq
 ```
 
